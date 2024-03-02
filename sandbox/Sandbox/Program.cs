@@ -6,7 +6,7 @@ class Program
     {
        Console.WriteLine("What is your first name ?");
        string fname = Console.ReadLine();
-       Console.WriteLine(fname)
+       Console.WriteLine(fname);
 
     }
 }
