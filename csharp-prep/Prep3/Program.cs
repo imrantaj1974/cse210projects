@@ -12,7 +12,8 @@ class Program
         // string magicNumber = Console.ReadLine();
         // int mgcNumber = int.Parse(magicNumber);
         /*Console.WriteLine($"Magical Number is {mgcNumber} ");*/
-
+        while(userMagicNumber != magicNumber)
+        {
         Console.Write ("What is your guess? ");
         userMagicNumber = int.Parse(Console.ReadLine());
         // int userMgcNumber = int.Parse(userMagicNumber);
@@ -32,7 +33,7 @@ class Program
         {
             /*Console.WriteLine($"Wow, you guessed it {userMgcNumber}");*/
             Console.WriteLine("You guessed it ! ");
-
+        }
         }
     }
 }
