@@ -13,7 +13,7 @@ class Program
         string gradeReceived = Console.ReadLine();
         int stpercent = int.Parse(gradeReceived);
         /* Console.Write(stpercent); */
-        Console.Write($"The grade you entered is {stpercent}");
+        /*Console.Write($"The grade you entered is {stpercent}");*/
         string teller = "";
         string status = "";
         if (stpercent >=90)
@@ -38,16 +38,16 @@ class Program
         else 
             {
             teller="F";
-            status="Fail";
+            status="F";
             }
-        if ((teller=="A"||teller=="B"||teller=="c"||teller=="D"||) && status ="P")
-        {
-        Console.Write($"Your Grade is:  {teller} and you have passed");
-        }
+        if (teller=="A"||teller=="B"||teller=="c"||teller=="D" && status=="P")
+            {
+            Console.WriteLine($"Your Grade is:  {teller} and you have passed");
+            }
         else
-        {
-        Console.Write($"Your Grade is:  {teller} and you have Failed");
-        }
+            {
+            Console.WriteLine("Better Luck next time");
+            }
         
      }
 }
