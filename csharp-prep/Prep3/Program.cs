@@ -26,12 +26,5 @@ class Program
             Console.WriteLine($"Wow, you guessed it {userMgcNumber}");
         }
 
-
-
-
-
-
-
-
     }
 }
