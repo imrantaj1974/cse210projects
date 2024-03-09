@@ -7,8 +7,8 @@ class Program
     /*static void Main(int[] args)*/
     /* I just want to make sure that int arguments are being passed*/
     {
-        Console.WriteLine("Hello Prep2 World!");
-        Console.WriteLine("Enter your grade");
+        /*Console.WriteLine("Hello Prep2 World!");*/
+        Console.WriteLine("Enter your grade  ");
     /*string is being change to int */
         string gradeReceived = Console.ReadLine();
         int stpercent = int.Parse(gradeReceived);
