@@ -8,6 +8,7 @@ class Program
         Console.WriteLine("What is the magic # ");
         string magicNumber = Console.ReadLine();
         int mgcNumber = int.Parse(magicNumber);
+        Console.WriteLine($"Magical Number is {mgcNumber} ");
 
         Console.WriteLine("Guess what is the magic # ?");
         string userMagicNumber = Console.ReadLine();
