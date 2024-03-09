@@ -35,10 +35,10 @@ class Program
             teller="D";
             status="P";
             }
-        else (stpercent < 60)
+        else 
             {
             teller="F";
-            status="F";
+            status="Fail";
             }
         if ((teller=="A"||teller=="B"||teller=="c"||teller=="D"||) && status ="P")
         {
