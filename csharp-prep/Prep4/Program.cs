@@ -40,7 +40,7 @@ class Program
                     max = number;
                 }
             }
-        Console.Write($"Max number is : {max}");
+        Console.WriteLine($"Max number is : {max}");
  
             // Finding Smallest number
             int smallest = numbers[0];
@@ -51,6 +51,6 @@ class Program
                     smallest = number;
                 }
             }
-        Console.Write($"Smallest number is : {smallest}");
+        Console.Write($"Smallest positive number is : {smallest}");
     }
 }
