@@ -51,6 +51,6 @@ class Program
                     smallest = number;
                 }
             }
-        Console.Write($"Smallest positive number is : {smallest}");
+        Console.Write($"Smallest number is : {smallest}");
     }
 }
