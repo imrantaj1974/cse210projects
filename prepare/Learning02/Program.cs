@@ -16,6 +16,11 @@ class Program
 
 
         job2._jobTitle = "Manager";
+        job2._companyName = "Apple";
+        job2._companyYear = "2022-2023";
+
+
+
         // Console.WriteLine($"{job1._jobTitle}");
         // Console.WriteLine($"{job2._jobTitle}");
         
